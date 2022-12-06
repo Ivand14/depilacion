@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.background-image {
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+/*INICIO*/
+.contenedor-inicio {
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #fcd5ce;
+  height: 7rem;
+}
+.navbar a {
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  height: 6rem;
+}
+
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.navegador {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+}
+
+#portada {
+  background-image: url("../fotos/foto-portada.jpg");
+  max-width: 100%;
+  height: 40rem;
+  overflow: hidden;
+  text-align: center;
+}
+#portada h1 {
+  margin-top: 15rem;
+  font-size: 5rem;
+}
+#portada h2 {
+  margin-bottom: 1rem;
+}
+
+.boton a {
+  background-color: #ff8fab;
+  border: #ff8fab;
+  font-size: 1.5rem;
+}
+.boton a:hover {
+  background-color: #fb6f92;
+  border: #fb6f92;
+}
+
+.nosotras {
+  overflow: hidden;
+  margin: 10rem 20rem;
+  text-align: start;
+  height: 30rem;
+}
+.nosotras h2 {
+  font-size: 3rem;
+}
+.nosotras p {
+  font-size: 2rem;
+  width: 40rem;
+}
+.nosotras img {
+  position: relative;
+  left: 60rem;
+  bottom: 22rem;
+  height: 33rem;
+}
+
+.contenido-servicios {
+  overflow: hidden;
+  background-color: #ff8fab;
+  padding: 1.5rem;
+  max-width: 100%;
+  height: 70rem;
+}
+
+.servicios {
+  overflow: hidden;
+  margin-top: 5rem;
+}
+.servicios h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.servicios p {
+  margin: 0 2rem;
+  font-size: 2rem;
+}
+
+.cards {
+  margin-bottom: 30rem;
+}
+
+/*DEPILACION*/
+.soprano-ice {
+  margin: 10rem 3rem;
+}
+.soprano-ice h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+.soprano-ice h3 {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+.soprano-ice p {
+  width: 60rem;
+  text-align: justify;
+}
+.soprano-ice img {
+  position: relative;
+  left: 80rem;
+  bottom: 38rem;
+}
+
+/*FOOTER*/
+.pagos h5 {
+  margin: 3rem 9rem;
+  font-size: 2rem;
+}
+.pagos img {
+  height: 5rem;
+  margin: -2rem -6rem 0rem 9rem;
+}
+
+.derechos {
+  display: flex;
+  margin: 2rem -6rem 0rem 9rem;
+  font-size: 1.3rem;
+}
+.derechos img {
+  height: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
