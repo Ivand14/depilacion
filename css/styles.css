@@ -46,7 +46,7 @@ p {
 .navegador {
   position: fixed;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
 
@@ -117,30 +117,122 @@ p {
 }
 
 .cards {
-  margin-bottom: 30rem;
+  margin: 4rem 22rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 100px;
+  height: 10rem;
+}
+.cards img {
+  height: 50rem;
+}
+.cards p {
+  text-align: center;
+}
+
+.card h5 {
+  text-align: center;
+  font-size: 2rem;
+  color: #9d8189;
+}
+
+.corporal img {
+  height: 26rem;
+}
+
+.depilacion-laser img {
+  height: 26rem;
 }
 
 /*DEPILACION*/
-.soprano-ice {
-  margin: 10rem 3rem;
+.contenedor-depilacion {
+  display: grid;
+  margin-top: 10rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 697px auto 430px;
+  grid-template-areas: "laser laser laser" "ice ice ice" "titanium titanium titanium";
+  gap: 5rem;
 }
-.soprano-ice h2 {
+
+.depilacion {
+  grid-area: laser;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 1rem 8rem;
+}
+.depilacion h2 {
   text-align: center;
-  font-size: 3.5rem;
-  margin-bottom: 4rem;
+  font-size: 3rem;
 }
-.soprano-ice h3 {
-  font-size: 2.3rem;
-  margin-bottom: 1.5rem;
+.depilacion h3 {
+  text-align: center;
+  font-size: 2.2rem;
 }
-.soprano-ice p {
-  width: 60rem;
-  text-align: justify;
-}
-.soprano-ice img {
+.depilacion img {
+  height: 50rem;
+  width: 50rem;
   position: relative;
-  left: 80rem;
-  bottom: 38rem;
+  bottom: 37rem;
+  left: 34rem;
+  border-radius: 0.8rem;
+  transition: ease 500ms;
+}
+
+.items-depilacion {
+  align-self: center;
+  width: 50rem;
+  height: 90rem;
+  margin-left: -1rem;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  line-height: 7rem;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.507);
+  opacity: 0;
+  visibility: hidden;
+  transition: ease 500ms;
+}
+
+.depilacion-2 h3 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.depilacion-2 img {
+  height: 50rem;
+  width: 50rem;
+  position: absolute;
+  top: 33rem;
+  border-radius: 0.8rem;
+}
+
+.soprano-ice, .soprano-titanium {
+  display: flex;
+  grid-area: ice;
+  flex-direction: row;
+  margin: 1rem 0rem;
+  background-color: bisque;
+  max-width: 100%;
+  height: 40rem;
+}
+.soprano-ice h2, .soprano-titanium h2 {
+  width: 30rem;
+  margin: 8rem;
+}
+.soprano-ice ul, .soprano-titanium ul {
+  font-size: 1.8rem;
+  margin: 5rem 9rem;
+}
+.soprano-ice img, .soprano-titanium img {
+  width: 24rem;
+  height: 30rem;
+  margin: 8rem;
+  margin-top: 2rem;
+}
+
+.soprano-titanium {
+  grid-area: titanium;
+  background-color: white;
 }
 
 /*FOOTER*/
@@ -159,7 +251,7 @@ p {
   font-size: 1.3rem;
 }
 .derechos img {
-  height: 2rem;
+  height: 3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
