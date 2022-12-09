@@ -9,7 +9,8 @@
     grid-template-areas: 
     "laser laser laser"
     "ice ice ice"
-    "titanium titanium titanium";
+    "titanium titanium titanium"
+    "footer footer footer";
     gap: 5rem;
 }
 
@@ -34,7 +35,7 @@
         position: relative;
         bottom: 37rem;
         left: 34rem;
-        border-radius: .8rem;
+        border-radius: 5rem .1rem 3rem .1rem;
         transition: ease 500ms;
     }
 
@@ -99,4 +100,9 @@
     @extend .soprano-ice;
     grid-area: titanium;
     background-color: white;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: bisque;
 }

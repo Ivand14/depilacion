@@ -1,7 +1,29 @@
-.background-image{
+
+@mixin background {
     background-size: cover;
     background-repeat: none;
     background-attachment: fixed;
+    max-width: 100%;
+    overflow: hidden;
 }
 
+@mixin fondo-tratamientos{
+    max-width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(50%);
+}
 
+@mixin texto-h2{
+    font-size: 3rem;
+}
+
+@mixin texto-p{
+    font-size: 2rem;
+}
+
+@mixin li{
+    font-size: 2rem;
+}

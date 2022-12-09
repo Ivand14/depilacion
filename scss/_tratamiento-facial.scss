@@ -1,0 +1,73 @@
+/*SPA-FACIAL*/
+
+.contenedor-ozonoterapia{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin: 1rem 0 3rem 0;
+    img{
+        height: 50rem;
+        border-radius: 0 30% 30% 0 ;
+    }
+    h2{
+        text-align: center;
+        @include texto-h2;
+        margin-bottom: 2rem;
+    }
+    
+    p{
+        text-align: justify;
+        margin: 0rem  2rem 2rem 0rem;
+    }
+    @include li;
+    ul li{
+        margin-left: 10rem;
+    }
+    }
+
+.contenedor-lifting{
+    display: flex;
+    flex-direction: row-reverse;
+    img{
+        height: 40rem;
+        border-radius: 30% 0 0 30%;
+    }
+}
+
+.texto-lifting{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    h2{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+    }
+}
+
+.contenedor-perfilado{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.imagen-cejas{
+    margin-top: 4rem;
+    img{
+        height: 40rem;
+        border-radius: 0 30% 30% 0;
+        width: 43rem;   
+    }
+}
+
+.diseño-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2rem;
+    h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+}

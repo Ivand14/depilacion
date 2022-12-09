@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -16,38 +17,32 @@ p {
   font-size: 2rem;
 }
 
-.background-image {
-  background-size: cover;
-  background-repeat: none;
-  background-attachment: fixed;
-}
-
 /*INICIO*/
 .contenedor-inicio {
   overflow: hidden;
 }
 
 .navbar {
-  background-color: #fcd5ce;
+  background-color: #FFEFE7;
   height: 7rem;
 }
 .navbar a {
   font-size: 1.5rem;
+  transition: all 0.312s;
+}
+
+.collapse {
+  display: flex;
+  justify-content: end;
 }
 
 .navbar-brand img {
-  height: 6rem;
+  height: 7rem;
+  margin-left: -1rem;
 }
 
 .navbar a:hover {
-  color: rgb(0, 0, 0);
-}
-
-.navegador {
-  position: fixed;
-  top: 0px;
-  z-index: 2;
-  width: 100%;
+  transform: scale(1.0123);
 }
 
 #portada {
@@ -97,7 +92,7 @@ p {
 
 .contenido-servicios {
   overflow: hidden;
-  background-color: #ff8fab;
+  background: linear-gradient(to bottom, rgba(255, 143, 171, 0.937254902), rgba(255, 143, 171, 0.7450980392));
   padding: 1.5rem;
   max-width: 100%;
   height: 70rem;
@@ -117,7 +112,7 @@ p {
 }
 
 .cards {
-  margin: 4rem 22rem;
+  margin: 4rem 12rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 100px;
@@ -127,7 +122,7 @@ p {
   height: 50rem;
 }
 .cards p {
-  text-align: center;
+  text-align: start;
 }
 
 .card h5 {
@@ -150,7 +145,7 @@ p {
   margin-top: 10rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 697px auto 430px;
-  grid-template-areas: "laser laser laser" "ice ice ice" "titanium titanium titanium";
+  grid-template-areas: "laser laser laser" "ice ice ice" "titanium titanium titanium" "footer footer footer";
   gap: 5rem;
 }
 
@@ -175,7 +170,7 @@ p {
   position: relative;
   bottom: 37rem;
   left: 34rem;
-  border-radius: 0.8rem;
+  border-radius: 5rem 0.1rem 3rem 0.1rem;
   transition: ease 500ms;
 }
 
@@ -235,7 +230,207 @@ p {
   background-color: white;
 }
 
+.footer {
+  grid-area: footer;
+  background-color: bisque;
+}
+
+/*SPA-FACIAL*/
+.contenedor-ozonoterapia {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin: 1rem 0 3rem 0;
+  font-size: 2rem;
+}
+.contenedor-ozonoterapia img {
+  height: 50rem;
+  border-radius: 0 30% 30% 0;
+}
+.contenedor-ozonoterapia h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contenedor-ozonoterapia p {
+  text-align: justify;
+  margin: 0rem 2rem 2rem 0rem;
+}
+.contenedor-ozonoterapia ul li {
+  margin-left: 10rem;
+}
+
+.contenedor-lifting {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contenedor-lifting img {
+  height: 40rem;
+  border-radius: 30% 0 0 30%;
+}
+
+.texto-lifting {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+.texto-lifting h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.contenedor-perfilado {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.imagen-cejas {
+  margin-top: 4rem;
+}
+.imagen-cejas img {
+  height: 40rem;
+  border-radius: 0 30% 30% 0;
+  width: 43rem;
+}
+
+.diseño-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2rem;
+}
+.diseño-texto h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/*PRESOTERAPIA*/
+.contenedor-presoterapia {
+  margin-bottom: -30rem;
+  background-color: #ffffff;
+}
+
+.fondo-presoterapia {
+  background-image: url(../fotos/presoterapia.jpg);
+  max-width: 100%;
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+  margin-top: 2rem;
+}
+.fondo-presoterapia h2 {
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.texto-presoterapia p {
+  text-align: justify;
+  width: 50rem;
+  margin: 2rem 5rem;
+}
+
+.beneficios {
+  margin: 1rem 10rem;
+}
+.beneficios h2 {
+  font-size: 3rem;
+}
+.beneficios li {
+  font-size: 2rem;
+  list-style: inside;
+  list-style-type: georgian;
+}
+
+.video-presoterapia {
+  position: relative;
+  left: 70rem;
+  bottom: 45rem;
+}
+.video-presoterapia video {
+  height: 50rem;
+  width: 50rem;
+}
+
+.fondo-velaslim-tesla {
+  max-width: 100%;
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+  background-image: url("../fotos/vela-tesla.jpg");
+  margin-bottom: 2rem;
+}
+.fondo-velaslim-tesla h2 {
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.textos-tesla-vesla {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 3rem -22rem 3rem;
+  max-height: 170rem;
+}
+
+.texto-vela {
+  width: 150%;
+}
+
+.velaslim-texto, .teslagen-texto {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.velaslim-texto li, .teslagen-texto li {
+  font-size: 2rem;
+  list-style: inside;
+  list-style-type: decimal;
+  line-height: 4rem;
+}
+.velaslim-texto ul, .teslagen-texto ul {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imagen-vela {
+  position: relative;
+  bottom: 22rem;
+  margin-bottom: -10rem;
+}
+.imagen-vela img {
+  height: 50rem;
+  width: 50rem;
+  border-radius: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.imagen-tesla {
+  position: relative;
+  bottom: 34rem;
+}
+.imagen-tesla img {
+  height: 50rem;
+  width: 50rem;
+  border-radius: 1rem 0.4rem 1rem 0.4rem;
+}
+
 /*FOOTER*/
+.footer {
+  background-color: #FFEFE7;
+}
+
 .pagos h5 {
   margin: 3rem 9rem;
   font-size: 2rem;

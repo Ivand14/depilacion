@@ -1,0 +1,119 @@
+/*PRESOTERAPIA*/
+
+.contenedor-presoterapia{
+    margin-bottom: -30rem;
+    background-color: #ffffff;
+}
+.fondo-presoterapia{
+    background-image:  url(../fotos/presoterapia.jpg);
+    max-width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(50%);
+    margin-top: 2rem;
+    h2{
+        position: relative;
+        top: 15rem;
+        left: 10rem;
+        font-size: 5rem;
+        color: #ffffff;
+    }
+}
+
+.texto-presoterapia{
+    p{
+        text-align: justify;
+        width: 50rem;
+        margin:2rem 5rem
+    }
+}
+.beneficios{
+    margin: 1rem 10rem;
+    h2{
+        font-size: 3rem;
+    }
+    li{
+        font-size: 2rem;
+        list-style: inside;
+        list-style-type: georgian;
+    }
+}
+
+.video-presoterapia{
+    position: relative;
+    left: 70rem;
+    bottom: 45rem;
+        video{
+            height: 50rem;
+            width: 50rem;
+        }
+}
+
+.fondo-velaslim-tesla{
+    @include fondo-tratamientos;
+    background-image: url('../fotos/vela-tesla.jpg');
+    margin-bottom: 2rem;
+    h2{
+        position: relative;
+        top: 15rem;
+        left: 10rem;
+        font-size: 5rem;
+        color: #ffffff;
+    }
+}
+
+.textos-tesla-vesla{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem -22rem 3rem;
+    max-height: 170rem;
+}
+
+.texto-vela{
+    width: 150%;
+}
+
+.velaslim-texto{
+    display: flex;
+    flex-direction: row;
+    li{
+        font-size: 2rem;
+        list-style: inside;
+        list-style-type: decimal;
+        line-height: 4rem;
+    }
+    ul{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    text-align: justify;
+}
+
+.imagen-vela{
+    position: relative;
+    bottom: 22rem;
+    margin-bottom: -10rem;
+    img{
+        height: 50rem;
+        width: 50rem;
+        border-radius: 1rem 0.4rem 1rem .4rem;
+    }
+}
+
+.teslagen-texto{
+    @extend .velaslim-texto;
+    
+}
+
+.imagen-tesla{
+    img{
+        height: 50rem;
+        width: 50rem;
+        border-radius: 1rem 0.4rem 1rem .4rem;
+    }
+    position: relative;
+    bottom: 34rem;
+    
+}
