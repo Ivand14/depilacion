@@ -82,6 +82,9 @@
         }
     }
     .nosotras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         h2{
             font-size: 1.8rem;
             text-align: center;          
@@ -97,6 +100,10 @@
     }
     .nosotras-texto{
         margin: 0 2rem;
+    }
+    .nosotras-img{
+        display: flex;
+        justify-content: center;
     }
     .contenido-servicios{
         height: auto;

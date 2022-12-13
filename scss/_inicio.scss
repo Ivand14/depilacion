@@ -126,6 +126,11 @@
     
 }
 
+.card-text{
+    li{
+        @include li;
+    }
+}
 
 .corporal{
     img{
