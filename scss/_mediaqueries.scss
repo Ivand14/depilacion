@@ -134,3 +134,66 @@
         }
     }
 }
+
+@media (max-width:300px) and (min-width:100px){
+    #portada{
+        h1{
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+    .nosotras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 75rem;
+        h2{
+            font-size: 1.8rem;
+            text-align: center;          
+        }
+        p{
+            font-size: 1.5rem;           
+        }
+        img{
+            height: 30rem;
+            
+        }
+    }
+    .contenido-servicios{
+        height: auto;
+    }
+    .servicios{
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo-footer{
+        h5{
+            font-size: 1.2rem;
+        }
+
+    }
+    .derechos{
+        align-items: center;
+        p{
+            font-size: 1.2rem;
+        }
+        img{
+            height: 1rem;
+            
+        }
+    }
+}
