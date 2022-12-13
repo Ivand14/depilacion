@@ -73,20 +73,27 @@ p {
 
 .nosotras {
   display: flex;
+  margin: 10rem 0;
   justify-content: center;
-  gap: 8rem;
-  overflow: hidden;
-  margin: 10rem 0 10rem 0;
-  height: 30rem;
+  gap: 2rem;
 }
-.nosotras h2 {
-  font-size: 3rem;
+
+.nosotras-texto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 10rem 9rem;
 }
-.nosotras p {
-  font-size: 2rem;
-  width: 40rem;
+.nosotras-texto p {
+  text-align: justify;
 }
-.nosotras img {
+
+.nosotras-img {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+.nosotras-img img {
   height: 30rem;
 }
 
@@ -99,6 +106,8 @@ p {
 }
 
 .servicios {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   margin-top: 5rem;
 }
@@ -515,22 +524,19 @@ p {
   #portada h2 {
     font-size: 1.8rem;
   }
-  .nosotras {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 75rem;
-  }
   .nosotras h2 {
     font-size: 1.8rem;
     text-align: center;
   }
   .nosotras p {
     font-size: 1.5rem;
+    text-align: justify;
   }
   .nosotras img {
     height: 30rem;
+  }
+  .nosotras-texto {
+    margin: 0 2rem;
   }
   .contenido-servicios {
     height: auto;
@@ -540,6 +546,7 @@ p {
   }
   .servicios p {
     font-size: 1.5rem;
+    text-align: justify;
   }
   .cards {
     display: flex;

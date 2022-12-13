@@ -57,26 +57,29 @@
     }
 }
 
-
 .nosotras{
     display: flex;
+    margin: 10rem 0;
     justify-content: center;
-    gap: 8rem;
-    overflow: hidden;
-    margin: 10rem 0 10rem 0;
-    height: 30rem;
-    h2{
-        font-size: 3rem;
-    }
+    gap: 2rem;
+}
+.nosotras-texto{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10rem 9rem;
     p{
-        font-size: 2rem;
-        width: 40rem;
+        text-align: justify;
     }
+}
+.nosotras-img{
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
     img{
         height: 30rem;
     }
 }
-
 .contenido-servicios{
     overflow: hidden;
     background:linear-gradient(to bottom,#ff8fabef,#ff8fabbe);
@@ -85,6 +88,8 @@
     height: 70rem;
 }
 .servicios{
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     margin-top: 5rem;
     h2{

@@ -82,22 +82,21 @@
         }
     }
     .nosotras{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 75rem;
         h2{
             font-size: 1.8rem;
             text-align: center;          
         }
         p{
-            font-size: 1.5rem;           
+            font-size: 1.5rem;
+            text-align: justify;         
         }
         img{
             height: 30rem;
             
         }
+    }
+    .nosotras-texto{
+        margin: 0 2rem;
     }
     .contenido-servicios{
         height: auto;
@@ -108,6 +107,7 @@
         }
         p{
             font-size: 1.5rem;
+            text-align: justify;
         }
     }
     .cards{
