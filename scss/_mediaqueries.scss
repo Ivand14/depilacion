@@ -219,7 +219,7 @@
     }
 }
 
-@media (max-width:838px) and (min-width:607px){
+@media (max-width:838px) and (min-width:495px){
     .ice-texto{
         flex-direction: column;
         gap: 2rem;
@@ -326,6 +326,117 @@
         align-items: center;
         img{
             height: 30rem;
+        }
+    }
+}
+
+@media (max-width:838px) and (min-width:495px){
+    .ice-texto{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .depilacion-texto{
+        h2{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.8rem;
+        }
+    }
+    .img-depi{
+        img{
+            height: 30rem;
+        }
+    }
+    .soprano-ice{
+        height: 50rem;
+    }
+    .ice-texto{
+        li{
+            font-size: 1.8rem;
+        }
+    }
+    .ice-img{
+        img{
+            height: 30rem;
+            margin-top: 5rem;
+        }
+    }
+    .soprano-titanium{
+        height: 30rem;
+    }
+    .titanium-text{
+        li{
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+    }
+    .titanium-img{
+        img{
+            height: 30rem;
+            margin-top: -6rem;
+        }
+    }
+}
+
+@media (max-width:495px) and (min-width:320px){
+    .ice-texto{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .depilacion-texto{
+        h2{
+            font-size: 1.8rem;
+        }
+        h3{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.4rem;
+        }
+    }
+    .img-depi{
+        img{
+            height: 28rem;
+        }
+    }
+    .soprano-ice{
+        height: 60rem;
+    }
+    .ice-texto{
+        h2{
+            font-size: 1.8rem;
+        }
+        li{
+            font-size: 1rem;
+        }
+    }
+    .ice-img{
+        display: flex;
+        align-items: center;
+        img{
+            height: 28rem;
+        }
+    }
+    .soprano-titanium{
+        height: 60rem;
+    }
+    .titanium-texto{
+        h2{
+            font-size: 1.8rem;
+        }
+        li{
+            font-size: 1rem;
+            text-align: justify;
+        }
+    }
+    .titanium-img{
+        display: flex;
+        align-items: center;
+        img{
+            height: 28rem;
         }
     }
 }
