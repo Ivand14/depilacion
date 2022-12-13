@@ -153,99 +153,70 @@ p {
 
 /*DEPILACION*/
 .contenedor-depilacion {
-  display: grid;
   margin-top: 10rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 697px auto 430px;
-  grid-template-areas: "laser laser laser" "ice ice ice" "titanium titanium titanium" "footer footer footer";
-  gap: 5rem;
 }
 
 .depilacion {
-  grid-area: laser;
   display: flex;
-  align-content: center;
   flex-direction: column;
-  margin: 1rem 8rem;
-  overflow: hidden;
+  margin-bottom: 2rem;
 }
-.depilacion h2 {
-  text-align: center;
+
+.depilacion-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  margin: -2rem 4rem 2rem 4rem;
+}
+.depilacion-texto h2 {
   font-size: 3rem;
 }
-.depilacion h3 {
-  text-align: center;
+.depilacion-texto h3 {
   font-size: 2.2rem;
 }
-.depilacion img {
-  height: 50rem;
-  width: 50rem;
-  position: relative;
-  bottom: 37rem;
-  left: 34rem;
-  border-radius: 5rem 0.1rem 3rem 0.1rem;
-  transition: ease 500ms;
+.depilacion-texto p {
+  margin: 1.5rem 0;
 }
 
-.items-depilacion {
-  align-self: center;
-  width: 50rem;
-  height: 90rem;
-  margin-left: -1rem;
-  font-size: 1.8rem;
-  margin-top: 3rem;
-  line-height: 7rem;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.507);
-  opacity: 0;
-  visibility: hidden;
-  transition: ease 500ms;
+.img-depi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.depilacion-2 h3 {
-  text-align: center;
-  font-size: 2.2rem;
-}
-.depilacion-2 img {
-  height: 50rem;
-  width: 50rem;
-  position: absolute;
-  top: 33rem;
-  border-radius: 0.8rem;
+.img-depi img {
+  height: 40rem;
+  border-radius: 15% 0 15% 0;
 }
 
 .soprano-ice, .soprano-titanium {
   display: flex;
-  grid-area: ice;
-  flex-direction: row;
-  margin: 1rem 0rem;
   background-color: bisque;
-  max-width: 100%;
-  height: 40rem;
+  margin: 10rem 0rem;
+  height: 70rem;
 }
-.soprano-ice h2, .soprano-titanium h2 {
-  width: 30rem;
-  margin: 8rem;
+
+.ice-texto, .titanium-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin: 0 5rem;
 }
-.soprano-ice ul, .soprano-titanium ul {
-  font-size: 1.8rem;
-  margin: 5rem 9rem;
+.ice-texto h2, .titanium-texto h2 {
+  font-size: 2.4rem;
 }
-.soprano-ice img, .soprano-titanium img {
-  width: 24rem;
-  height: 30rem;
-  margin: 8rem;
-  margin-top: 2rem;
+.ice-texto li, .titanium-texto li {
+  font-size: 2rem;
+}
+
+.ice-img, .titanium-img {
+  margin-top: 10rem;
 }
 
 .soprano-titanium {
-  grid-area: titanium;
   background-color: white;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: bisque;
 }
 
 /*SPA-FACIAL*/
@@ -528,6 +499,9 @@ p {
   #portada h2 {
     font-size: 1.8rem;
   }
+  .navbar-brand img {
+    height: 6rem;
+  }
   .nosotras {
     display: flex;
     flex-direction: column;
@@ -632,6 +606,102 @@ p {
   }
   .derechos img {
     height: 1rem;
+  }
+}
+/*DEPILACION LASER*/
+@media (max-width: 1023px) and (min-width: 838px) {
+  .ice-texto, .titanium-texto {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media (max-width: 838px) and (min-width: 607px) {
+  .ice-texto, .titanium-texto {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .depilacion-texto h2 {
+    font-size: 2.5rem;
+  }
+  .depilacion-texto p {
+    font-size: 1.8rem;
+  }
+  .img-depi img {
+    height: 30rem;
+  }
+  .soprano-ice, .soprano-titanium {
+    height: 50rem;
+  }
+  .ice-texto li, .titanium-texto li {
+    font-size: 1.8rem;
+  }
+  .ice-img img, .titanium-img img {
+    height: 30rem;
+    margin-top: 5rem;
+  }
+  .soprano-titanium {
+    height: 30rem;
+  }
+  .titanium-text li {
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+  .titanium-img img {
+    height: 30rem;
+    margin-top: -6rem;
+  }
+}
+@media (max-width: 607px) and (min-width: 320px) {
+  .ice-texto, .titanium-texto {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .depilacion-texto h2 {
+    font-size: 2rem;
+  }
+  .depilacion-texto h3 {
+    font-size: 1.8rem;
+  }
+  .depilacion-texto p {
+    font-size: 1.6rem;
+  }
+  .img-depi img {
+    height: 30rem;
+  }
+  .soprano-ice, .soprano-titanium {
+    height: 60rem;
+  }
+  .ice-texto h2, .titanium-texto h2 {
+    font-size: 2rem;
+  }
+  .ice-texto li, .titanium-texto li {
+    font-size: 1.5rem;
+  }
+  .ice-img, .titanium-img {
+    display: flex;
+    align-items: center;
+  }
+  .ice-img img, .titanium-img img {
+    height: 30rem;
+  }
+  .soprano-titanium {
+    height: 60rem;
+  }
+  .titanium-texto h2 {
+    font-size: 2rem;
+  }
+  .titanium-texto li {
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+  .titanium-img {
+    display: flex;
+    align-items: center;
+  }
+  .titanium-img img {
+    height: 30rem;
   }
 }
 
