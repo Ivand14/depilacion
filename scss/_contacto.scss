@@ -1,0 +1,38 @@
+/*CONTACTO*/
+.contenedor-contacto{
+    background-image: url('../fotos/fondo-contacto.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    height: 62.5rem;
+    max-width: 100%;
+}
+
+.reservas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        @include texto-h2;
+        margin-top: 2rem
+    }
+
+    li{
+        @include li;
+        margin: 1rem 40rem;
+        text-align: justify;
+        
+    }
+}
+
+.contacto{
+    h2{
+        text-align: center;
+        @include texto-h2;
+    }
+}
+
+
+

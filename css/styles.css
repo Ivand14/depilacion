@@ -34,6 +34,7 @@ p {
 .collapse {
   display: flex;
   justify-content: end;
+  margin-right: 4rem;
 }
 
 .navbar-brand img {
@@ -71,9 +72,11 @@ p {
 }
 
 .nosotras {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
   overflow: hidden;
-  margin: 10rem 20rem;
-  text-align: start;
+  margin: 10rem 0 10rem 0;
   height: 30rem;
 }
 .nosotras h2 {
@@ -84,10 +87,7 @@ p {
   width: 40rem;
 }
 .nosotras img {
-  position: relative;
-  left: 60rem;
-  bottom: 22rem;
-  height: 33rem;
+  height: 30rem;
 }
 
 .contenido-servicios {
@@ -116,7 +116,6 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 100px;
-  height: 10rem;
 }
 .cards img {
   height: 50rem;
@@ -155,6 +154,7 @@ p {
   align-content: center;
   flex-direction: column;
   margin: 1rem 8rem;
+  overflow: hidden;
 }
 .depilacion h2 {
   text-align: center;
@@ -429,24 +429,137 @@ p {
 /*FOOTER*/
 .footer {
   background-color: #FFEFE7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-.pagos h5 {
-  margin: 3rem 9rem;
-  font-size: 2rem;
-}
-.pagos img {
-  height: 5rem;
-  margin: -2rem -6rem 0rem 9rem;
+.titulo-footer h3 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .derechos {
   display: flex;
-  margin: 2rem -6rem 0rem 9rem;
-  font-size: 1.3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 .derechos img {
-  height: 3rem;
+  height: 3.5rem;
+}
+
+/*MEDIAQUERIES*/
+/*INICIO*/
+@media (max-width: 1069px) and (min-width: 817px) {
+  .contenido-servicios {
+    height: auto;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 816px) and (min-width: 725px) {
+  #portada h1 {
+    font-size: 2rem;
+  }
+  #portada h2 {
+    font-size: 1.8rem;
+  }
+  .nosotras h2 {
+    font-size: 1.8rem;
+  }
+  .nosotras p {
+    font-size: 1.5rem;
+  }
+  .nosotras img {
+    height: 23rem;
+  }
+  .contenido-servicios {
+    height: auto;
+  }
+  .servicios h2 {
+    font-size: 1.8rem;
+  }
+  .servicios p {
+    font-size: 1.5rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .titulo-footer h5 {
+    font-size: 1.2rem;
+  }
+  .derechos {
+    align-items: center;
+  }
+  .derechos p {
+    font-size: 1.2rem;
+  }
+  .derechos img {
+    height: 1rem;
+  }
+}
+@media (max-width: 725px) and (min-width: 500px) {
+  #portada h1 {
+    font-size: 2rem;
+  }
+  #portada h2 {
+    font-size: 1.8rem;
+  }
+  .nosotras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75rem;
+  }
+  .nosotras h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .nosotras p {
+    font-size: 1.5rem;
+  }
+  .nosotras img {
+    height: 30rem;
+  }
+  .contenido-servicios {
+    height: auto;
+  }
+  .servicios h2 {
+    font-size: 1.8rem;
+  }
+  .servicios p {
+    font-size: 1.5rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .titulo-footer h5 {
+    font-size: 1.2rem;
+  }
+  .derechos {
+    align-items: center;
+  }
+  .derechos p {
+    font-size: 1.2rem;
+  }
+  .derechos img {
+    height: 1rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

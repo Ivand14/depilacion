@@ -20,7 +20,7 @@
     align-content: center;
     flex-direction: column;
     margin: 1rem 8rem;
-
+    overflow: hidden;
     h2{
         text-align: center;
         font-size: 3rem;
@@ -53,6 +53,7 @@
     opacity: 0;
     visibility: hidden;
     transition: ease 500ms;
+    
 }
 
 
@@ -69,6 +70,7 @@
         border-radius: .8rem;
         
     }
+   
 }
 
 .soprano-ice{
@@ -105,4 +107,5 @@
 .footer{
     grid-area: footer;
     background-color: bisque;
+    
 }

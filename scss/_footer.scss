@@ -1,24 +1,24 @@
 /*FOOTER*/
 .footer{
     background-color: #FFEFE7;
-}
-.pagos{
-    
-    h5{
-        margin: 3rem 9rem;
-        font-size: 2rem;
-    }
-    img{
-        height: 5rem;
-        margin: -2rem -6rem 0rem 9rem;
-    }
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
+.titulo-footer{
+    h3{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
 .derechos{
     img{
-        height: 3rem;
+        height: 3.5rem;
     }
     display: flex;
-    margin: 2rem -6rem 0rem 9rem;
-    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+

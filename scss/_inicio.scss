@@ -15,6 +15,7 @@
 .collapse{
     display: flex;
     justify-content: end;
+    margin-right: 4rem;
 }
 .navbar-brand{
     img{
@@ -58,9 +59,11 @@
 
 
 .nosotras{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
     overflow: hidden;
-    margin: 10rem 20rem;
-    text-align: start;
+    margin: 10rem 0 10rem 0;
     height: 30rem;
     h2{
         font-size: 3rem;
@@ -70,10 +73,7 @@
         width: 40rem;
     }
     img{
-        position: relative;
-        left: 60rem;
-        bottom: 22rem;
-        height: 33rem;
+        height: 30rem;
     }
 }
 
@@ -109,7 +109,6 @@
     p{
         text-align: start;
     }
-    height: 10rem;
     
 }
 
@@ -121,6 +120,7 @@
     }
     
 }
+
 
 .corporal{
     img{
