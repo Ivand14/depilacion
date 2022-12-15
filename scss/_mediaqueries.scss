@@ -2,16 +2,16 @@
 
 /*INICIO*/
 
-@media (max-width:1069px) and (min-width:817px){
+@media (max-width:1075px) and (min-width:817px){
     .contenido-servicios{
         height: auto;
     }
-    .cards{
+    .contenedor-img{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 4rem;
     }
 
 }
@@ -36,23 +36,9 @@
             height: 23rem;
         }
     }
-    .contenido-servicios{
-        height: auto;
-    }
-    .servicios{
-        h2{
-            font-size: 1.8rem;
-        }
-        p{
-            font-size: 1.5rem;
-        }
-    }
-    .cards{
+    .contenedor-img{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
     }
     .titulo-footer{
         h5{
@@ -110,9 +96,19 @@
         display: flex;
         justify-content: center;
     }
+
     .contenido-servicios{
         height: auto;
     }
+
+    .contenedor-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .servicios{
         h2{
             font-size: 1.8rem;

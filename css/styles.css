@@ -81,7 +81,7 @@ p {
 
 .contenido-servicios {
   overflow: hidden;
-  background: linear-gradient(to bottom, #ff8fabef, #ff8fabbe);
+  background: linear-gradient(to bottom, #FFEFE7, #ff8fabbe);
   padding: 1.5rem;
   max-width: 100%;
   height: 70rem; }
@@ -98,29 +98,69 @@ p {
     margin: 0 2rem;
     font-size: 2rem; }
 
-.cards {
-  margin: 4rem 12rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 100px; }
-  .cards img {
-    height: 50rem; }
-  .cards p {
-    text-align: start; }
+.contenido-servicios {
+  height: 50rem; }
 
-.card h5 {
+.servicios-texto h2 {
   text-align: center;
-  font-size: 2rem;
-  color: #9d8189; }
+  font-size: 2.5rem;
+  margin-bottom: 7rem; }
 
-.card-text li {
-  font-size: 2rem; }
+.contenedor-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center; }
 
-.corporal img {
-  height: 26rem; }
+.img-hover {
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+  height: 250px; }
+  .img-hover img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5%; }
+  .img-hover h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 1;
+    color: #ff8fab;
+    background-color: #ffefe7;
+    border: solid .2rem #fb6f92;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: .5rem .5rem; }
 
-.depilacion-laser img {
-  height: 26rem; }
+.img-hover:hover h2 {
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 300ms; }
+
+.img-hover:before, .img-hover:after {
+  content: '';
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ff8fabc7;
+  opacity: .6;
+  transition: all 300ms;
+  border: .4rem solid wheat; }
+
+.img-hover:before {
+  transform: rotate(0deg) translateY(-550px) translateX(0px); }
+
+.img-hover:after {
+  transform: rotate(0deg) translateY(550px) translateX(-160px); }
+
+.img-hover:hover:before {
+  transform: rotate(0deg) translateY(-300px) translateX(0px); }
+
+.img-hover:hover:after {
+  transform: rotate(0deg) translateY(150px) translateX(-60px); }
 
 /*DEPILACION*/
 .contenedor-depilacion {
@@ -354,15 +394,15 @@ p {
 
 /*MEDIAQUERIES*/
 /*INICIO*/
-@media (max-width: 1069px) and (min-width: 817px) {
+@media (max-width: 1075px) and (min-width: 817px) {
   .contenido-servicios {
     height: auto; }
-  .cards {
+  .contenedor-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem; } }
+    gap: 4rem; } }
 
 @media (max-width: 816px) and (min-width: 768px) {
   #portada h1 {
@@ -375,18 +415,9 @@ p {
     font-size: 1.5rem; }
   .nosotras img {
     height: 23rem; }
-  .contenido-servicios {
-    height: auto; }
-  .servicios h2 {
-    font-size: 1.8rem; }
-  .servicios p {
-    font-size: 1.5rem; }
-  .cards {
+  .contenedor-img {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; }
+    flex-direction: column; }
   .titulo-footer h5 {
     font-size: 1.2rem; }
   .derechos {
@@ -422,6 +453,12 @@ p {
     justify-content: center; }
   .contenido-servicios {
     height: auto; }
+  .contenedor-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
   .servicios h2 {
     font-size: 1.8rem; }
   .servicios p {
