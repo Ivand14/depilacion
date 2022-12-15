@@ -157,7 +157,7 @@ p {
   transform: rotate(0deg) translateY(550px) translateX(-160px); }
 
 .img-hover:hover:before {
-  transform: rotate(0deg) translateY(-300px) translateX(0px); }
+  transform: rotate(0deg) translateY(-300px) translateX(-5px); }
 
 .img-hover:hover:after {
   transform: rotate(0deg) translateY(150px) translateX(-60px); }
@@ -658,3 +658,39 @@ p {
     align-items: center; }
     .titanium-img img {
       height: 28rem; } }
+
+/*TRATAMIENTO FACILA*/
+@media (max-width: 836px) and (min-width: 300px) {
+  .contenedor-ozonoterapia {
+    margin-bottom: 10rem; }
+    .contenedor-ozonoterapia img {
+      height: 15rem;
+      margin-top: 10rem; }
+    .contenedor-ozonoterapia h2 {
+      font-size: 1.8rem; }
+    .contenedor-ozonoterapia p {
+      font-size: 1.6rem; }
+    .contenedor-ozonoterapia ul li {
+      font-size: 1.4rem; }
+  .contenedor-lifting {
+    margin-bottom: 10rem; }
+    .contenedor-lifting img {
+      height: 15rem;
+      width: 15rem; }
+    .contenedor-lifting h2 {
+      font-size: 1.8rem; }
+    .contenedor-lifting p {
+      font-size: 1.6rem; }
+    .contenedor-lifting ul li {
+      font-size: 1.4rem; }
+  .contenedor-perfilado {
+    margin-bottom: 10rem; }
+    .contenedor-perfilado img {
+      height: 15rem;
+      width: 15rem; }
+    .contenedor-perfilado h2 {
+      font-size: 1.8rem; }
+    .contenedor-perfilado p {
+      font-size: 1.6rem; }
+    .contenedor-perfilado ul li {
+      font-size: 1.4rem; } }

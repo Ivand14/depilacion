@@ -443,3 +443,59 @@
         }
     }
 }
+
+/*TRATAMIENTO FACILA*/
+
+@media (max-width:836px) and (min-width:300px){
+    .contenedor-ozonoterapia{
+        margin-bottom: 10rem;
+        img{
+            height: 15rem;
+            margin-top: 10rem;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+        ul li{
+            font-size: 1.4rem;
+        }
+    }
+
+    .contenedor-lifting{
+        margin-bottom: 10rem;
+        img{
+            height: 15rem;
+            width: 15rem;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+        ul li{
+            font-size: 1.4rem;
+        }
+    }
+
+    .contenedor-perfilado{
+        margin-bottom: 10rem;
+        img{
+            height: 15rem;
+            width: 15rem;
+            
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+        ul li{
+            font-size: 1.4rem;
+        }
+    }
+}
