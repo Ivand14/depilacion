@@ -448,10 +448,17 @@
 
 @media (max-width:836px) and (min-width:100px){
     .contenedor-ozonoterapia{
-        margin-bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+        margin: -20rem 2rem 20rem 2rem;
         img{
-            height: 15rem;
+            height: 20rem;
+            width: 13rem;
             margin-top: 5rem;
+            position: relative;
+            top: 41rem;
+            left: 33.5rem;
+            border-radius: 10%;
         }
         h2{
             font-size: 1.6rem;
@@ -460,7 +467,7 @@
             font-size: 1.4rem;
         }
         ul{
-            margin: 1.2rem -6rem;
+            margin: 1.2rem -2rem;
             font-size: 1.5rem;
         }
         ul li{
@@ -504,5 +511,10 @@
             text-align: justify;
         }
         
+    }
+
+    .derechos{
+        display: flex;
+        align-items: baseline;
     }
 }
