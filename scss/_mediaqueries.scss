@@ -449,16 +449,13 @@
 @media (max-width:836px) and (min-width:100px){
     .contenedor-ozonoterapia{
         display: flex;
-        flex-direction: column;
-        margin: -20rem 2rem 20rem 2rem;
+        flex-direction: column-reverse;
+        margin: 5rem 2rem 10rem 2rem;
         img{
-            height: 20rem;
-            width: 13rem;
-            margin-top: 5rem;
-            position: relative;
-            top: 41rem;
-            left: 33.5rem;
-            border-radius: 10%;
+            height: 32rem;
+            width: 27rem;
+            margin-top: 1rem;
+            border-radius: 2% 2%;
         }
         h2{
             font-size: 1.6rem;
@@ -475,7 +472,11 @@
             margin-left: 2rem;
         }
     }
-
+    .contenedor-gif{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .contenedor-lifting{
         margin-bottom: 10rem;
         img{
