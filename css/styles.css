@@ -671,7 +671,7 @@ p {
     .contenedor-ozonoterapia p {
       font-size: 1.4rem; }
     .contenedor-ozonoterapia ul {
-      margin: 1.2rem 0rem;
+      margin: 1.2rem -6rem;
       font-size: 1.5rem; }
     .contenedor-ozonoterapia ul li {
       font-size: 1.2rem;
@@ -680,21 +680,23 @@ p {
     margin-bottom: 10rem; }
     .contenedor-lifting img {
       height: 15rem;
-      width: 15rem; }
+      width: 15rem;
+      margin-top: 3rem; }
     .contenedor-lifting h2 {
       font-size: 1.6rem; }
     .contenedor-lifting p {
-      font-size: 1.4rem; }
-    .contenedor-lifting ul li {
-      font-size: 1.2rem; }
+      font-size: 1.4rem;
+      text-align: justify; }
   .contenedor-perfilado {
     margin-bottom: 10rem; }
     .contenedor-perfilado img {
       height: 15rem;
-      width: 15rem; }
+      width: 15rem;
+      margin-top: -3rem; }
     .contenedor-perfilado h2 {
-      font-size: 1.6rem; }
+      font-size: 1.6rem;
+      margin-left: -2rem; }
     .contenedor-perfilado p {
-      font-size: 1.4rem; }
-    .contenedor-perfilado ul li {
-      font-size: 1.2rem; } }
+      font-size: 1.4rem;
+      margin-left: -2rem;
+      text-align: justify; } }
