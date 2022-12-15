@@ -446,21 +446,26 @@
 
 /*TRATAMIENTO FACILA*/
 
-@media (max-width:836px) and (min-width:300px){
+@media (max-width:836px) and (min-width:100px){
     .contenedor-ozonoterapia{
         margin-bottom: 10rem;
         img{
             height: 15rem;
-            margin-top: 10rem;
+            margin-top: 5rem;
         }
         h2{
-            font-size: 1.8rem;
-        }
-        p{
             font-size: 1.6rem;
         }
-        ul li{
+        p{
             font-size: 1.4rem;
+        }
+        ul{
+            margin: 1.2rem 0rem;
+            font-size: 1.5rem;
+        }
+        ul li{
+            font-size: 1.2rem;
+            margin-left: 2rem;
         }
     }
 
@@ -471,13 +476,13 @@
             width: 15rem;
         }
         h2{
-            font-size: 1.8rem;
-        }
-        p{
             font-size: 1.6rem;
         }
-        ul li{
+        p{
             font-size: 1.4rem;
+        }
+        ul li{
+            font-size: 1.2rem;
         }
     }
 
@@ -489,13 +494,13 @@
             
         }
         h2{
-            font-size: 1.8rem;
-        }
-        p{
             font-size: 1.6rem;
         }
-        ul li{
+        p{
             font-size: 1.4rem;
+        }
+        ul li{
+            font-size: 1.2rem;
         }
     }
 }
