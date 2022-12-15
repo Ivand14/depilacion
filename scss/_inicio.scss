@@ -9,14 +9,18 @@
     a{
         font-size: 1.5rem;
         transition: all .312s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
-.collapse{
-    display: flex;
-    justify-content: end;
-    margin-right: 4rem;
+.dropdown-menu.show{
+    background-color: #FFEFE7;
 }
+
+
+
 .navbar-brand{
     img{
         height: 7rem;

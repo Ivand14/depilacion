@@ -2,165 +2,134 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 h2 {
-  font-size: 3rem;
-}
+  font-size: 3rem; }
 
 p {
-  font-size: 2rem;
-}
+  font-size: 2rem; }
 
 /*INICIO*/
 .contenedor-inicio {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .navbar {
   background-color: #FFEFE7;
-  height: 7rem;
-}
-.navbar a {
-  font-size: 1.5rem;
-  transition: all 0.312s;
-}
+  height: 7rem; }
+  .navbar a {
+    font-size: 1.5rem;
+    transition: all .312s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
-.collapse {
-  display: flex;
-  justify-content: end;
-  margin-right: 4rem;
-}
+.dropdown-menu.show {
+  background-color: #FFEFE7; }
 
 .navbar-brand img {
   height: 7rem;
-  margin-left: -1rem;
-}
+  margin-left: -1rem; }
 
 .navbar a:hover {
-  transform: scale(1.0123);
-}
+  transform: scale(1.0123); }
 
 #portada {
   background-image: url("../fotos/foto-portada.jpg");
   max-width: 100%;
   height: 40rem;
   overflow: hidden;
-  text-align: center;
-}
-#portada h1 {
-  margin-top: 15rem;
-  font-size: 5rem;
-}
-#portada h2 {
-  margin-bottom: 1rem;
-}
+  text-align: center; }
+  #portada h1 {
+    margin-top: 15rem;
+    font-size: 5rem; }
+  #portada h2 {
+    margin-bottom: 1rem; }
 
 .boton a {
   background-color: #ff8fab;
   border: #ff8fab;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
+
 .boton a:hover {
   background-color: #fb6f92;
-  border: #fb6f92;
-}
+  border: #fb6f92; }
 
 .nosotras {
   display: flex;
   margin: 10rem 0;
   justify-content: center;
-  gap: 2rem;
-}
+  gap: 2rem; }
 
 .nosotras-texto {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 10rem 9rem;
-}
-.nosotras-texto p {
-  text-align: justify;
-}
+  margin: 10rem 9rem; }
+  .nosotras-texto p {
+    text-align: justify; }
 
 .nosotras-img {
   display: flex;
   align-items: center;
-  margin: 0 2rem;
-}
-.nosotras-img img {
-  height: 30rem;
-}
+  margin: 0 2rem; }
+  .nosotras-img img {
+    height: 30rem; }
 
 .contenido-servicios {
   overflow: hidden;
-  background: linear-gradient(to bottom, rgba(255, 143, 171, 0.937254902), rgba(255, 143, 171, 0.7450980392));
+  background: linear-gradient(to bottom, #ff8fabef, #ff8fabbe);
   padding: 1.5rem;
   max-width: 100%;
-  height: 70rem;
-}
+  height: 70rem; }
 
 .servicios {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin-top: 5rem;
-}
-.servicios h2 {
-  text-align: center;
-  font-size: 3rem;
-}
-.servicios p {
-  margin: 0 2rem;
-  font-size: 2rem;
-}
+  margin-top: 5rem; }
+  .servicios h2 {
+    text-align: center;
+    font-size: 3rem; }
+  .servicios p {
+    margin: 0 2rem;
+    font-size: 2rem; }
 
 .cards {
   margin: 4rem 12rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 100px;
-}
-.cards img {
-  height: 50rem;
-}
-.cards p {
-  text-align: start;
-}
+  gap: 100px; }
+  .cards img {
+    height: 50rem; }
+  .cards p {
+    text-align: start; }
 
 .card h5 {
   text-align: center;
   font-size: 2rem;
-  color: #9d8189;
-}
+  color: #9d8189; }
 
 .card-text li {
-  font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .corporal img {
-  height: 26rem;
-}
+  height: 26rem; }
 
 .depilacion-laser img {
-  height: 26rem;
-}
+  height: 26rem; }
 
 /*DEPILACION*/
 .contenedor-depilacion {
-  margin-top: 10rem;
-}
+  margin-top: 10rem; }
 
 .depilacion {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
 
 .depilacion-texto {
   display: flex;
@@ -168,56 +137,44 @@ p {
   align-items: center;
   flex-direction: column;
   text-align: justify;
-  margin: -2rem 4rem 2rem 4rem;
-}
-.depilacion-texto h2 {
-  font-size: 3rem;
-}
-.depilacion-texto h3 {
-  font-size: 2.2rem;
-}
-.depilacion-texto p {
-  margin: 1.5rem 0;
-}
+  margin: -2rem 4rem 2rem 4rem; }
+  .depilacion-texto h2 {
+    font-size: 3rem; }
+  .depilacion-texto h3 {
+    font-size: 2.2rem; }
+  .depilacion-texto p {
+    margin: 1.5rem 0; }
 
 .img-depi {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.img-depi img {
-  height: 40rem;
-  border-radius: 15% 0 15% 0;
-}
+  align-items: center; }
+  .img-depi img {
+    height: 40rem;
+    border-radius: 15% 0 15% 0; }
 
 .soprano-ice, .soprano-titanium {
   display: flex;
   background-color: bisque;
   margin: 10rem 0rem;
-  height: 70rem;
-}
+  height: 70rem; }
 
 .ice-texto, .titanium-texto {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  margin: 0 5rem;
-}
-.ice-texto h2, .titanium-texto h2 {
-  font-size: 2.4rem;
-}
-.ice-texto li, .titanium-texto li {
-  font-size: 2rem;
-}
+  margin: 0 5rem; }
+  .ice-texto h2, .titanium-texto h2 {
+    font-size: 2.4rem; }
+  .ice-texto li, .titanium-texto li {
+    font-size: 2rem; }
 
 .ice-img, .titanium-img {
-  margin-top: 10rem;
-}
+  margin-top: 10rem; }
 
 .soprano-titanium {
-  background-color: white;
-}
+  background-color: #ffff; }
 
 /*SPA-FACIAL*/
 .contenedor-ozonoterapia {
@@ -225,78 +182,63 @@ p {
   flex-direction: row;
   gap: 1.5rem;
   margin: 1rem 0 3rem 0;
-  font-size: 2rem;
-}
-.contenedor-ozonoterapia img {
-  height: 50rem;
-  border-radius: 0 30% 30% 0;
-}
-.contenedor-ozonoterapia h2 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-.contenedor-ozonoterapia p {
-  text-align: justify;
-  margin: 0rem 2rem 2rem 0rem;
-}
-.contenedor-ozonoterapia ul li {
-  margin-left: 10rem;
-}
+  font-size: 2rem; }
+  .contenedor-ozonoterapia img {
+    height: 50rem;
+    border-radius: 0 30% 30% 0; }
+  .contenedor-ozonoterapia h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .contenedor-ozonoterapia p {
+    text-align: justify;
+    margin: 0rem  2rem 2rem 0rem; }
+  .contenedor-ozonoterapia ul li {
+    margin-left: 10rem; }
 
 .contenedor-lifting {
   display: flex;
-  flex-direction: row-reverse;
-}
-.contenedor-lifting img {
-  height: 40rem;
-  border-radius: 30% 0 0 30%;
-}
+  flex-direction: row-reverse; }
+  .contenedor-lifting img {
+    height: 40rem;
+    border-radius: 30% 0 0 30%; }
 
 .texto-lifting {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 1rem 2rem;
-}
-.texto-lifting h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-}
+  margin: 1rem 2rem; }
+  .texto-lifting h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 3rem; }
 
 .contenedor-perfilado {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-}
+  gap: 2rem; }
 
 .imagen-cejas {
-  margin-top: 4rem;
-}
-.imagen-cejas img {
-  height: 40rem;
-  border-radius: 0 30% 30% 0;
-  width: 43rem;
-}
+  margin-top: 4rem; }
+  .imagen-cejas img {
+    height: 40rem;
+    border-radius: 0 30% 30% 0;
+    width: 43rem; }
 
 .diseño-texto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 2rem;
-}
-.diseño-texto h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 3rem;
-}
+  margin: 0 2rem; }
+  .diseño-texto h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 3rem; }
 
 /*PRESOTERAPIA*/
 .contenedor-presoterapia {
   margin-bottom: -30rem;
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .fondo-presoterapia {
   background-image: url(../fotos/presoterapia.jpg);
@@ -306,43 +248,35 @@ p {
   background-position: center;
   background-attachment: fixed;
   filter: brightness(50%);
-  margin-top: 2rem;
-}
-.fondo-presoterapia h2 {
-  position: relative;
-  top: 15rem;
-  left: 10rem;
-  font-size: 5rem;
-  color: #ffffff;
-}
+  margin-top: 2rem; }
+  .fondo-presoterapia h2 {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    font-size: 5rem;
+    color: #ffffff; }
 
 .texto-presoterapia p {
   text-align: justify;
   width: 50rem;
-  margin: 2rem 5rem;
-}
+  margin: 2rem 5rem; }
 
 .beneficios {
-  margin: 1rem 10rem;
-}
-.beneficios h2 {
-  font-size: 3rem;
-}
-.beneficios li {
-  font-size: 2rem;
-  list-style: inside;
-  list-style-type: georgian;
-}
+  margin: 1rem 10rem; }
+  .beneficios h2 {
+    font-size: 3rem; }
+  .beneficios li {
+    font-size: 2rem;
+    list-style: inside;
+    list-style-type: georgian; }
 
 .video-presoterapia {
   position: relative;
   left: 70rem;
-  bottom: 45rem;
-}
-.video-presoterapia video {
-  height: 50rem;
-  width: 50rem;
-}
+  bottom: 45rem; }
+  .video-presoterapia video {
+    height: 50rem;
+    width: 50rem; }
 
 .fondo-velaslim-tesla {
   max-width: 100%;
@@ -352,453 +286,338 @@ p {
   background-attachment: fixed;
   filter: brightness(50%);
   background-image: url("../fotos/vela-tesla.jpg");
-  margin-bottom: 2rem;
-}
-.fondo-velaslim-tesla h2 {
-  position: relative;
-  top: 15rem;
-  left: 10rem;
-  font-size: 5rem;
-  color: #ffffff;
-}
+  margin-bottom: 2rem; }
+  .fondo-velaslim-tesla h2 {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    font-size: 5rem;
+    color: #ffffff; }
 
 .textos-tesla-vesla {
   display: flex;
   flex-direction: column;
   margin: 2rem 3rem -22rem 3rem;
-  max-height: 170rem;
-}
+  max-height: 170rem; }
 
 .texto-vela {
-  width: 150%;
-}
+  width: 150%; }
 
 .velaslim-texto, .teslagen-texto {
   display: flex;
   flex-direction: row;
-  text-align: justify;
-}
-.velaslim-texto li, .teslagen-texto li {
-  font-size: 2rem;
-  list-style: inside;
-  list-style-type: decimal;
-  line-height: 4rem;
-}
-.velaslim-texto ul, .teslagen-texto ul {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
+  text-align: justify; }
+  .velaslim-texto li, .teslagen-texto li {
+    font-size: 2rem;
+    list-style: inside;
+    list-style-type: decimal;
+    line-height: 4rem; }
+  .velaslim-texto ul, .teslagen-texto ul {
+    font-size: 2rem;
+    margin-bottom: 2rem; }
 
 .imagen-vela {
   position: relative;
   bottom: 22rem;
-  margin-bottom: -10rem;
-}
-.imagen-vela img {
-  height: 50rem;
-  width: 50rem;
-  border-radius: 1rem 0.4rem 1rem 0.4rem;
-}
+  margin-bottom: -10rem; }
+  .imagen-vela img {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 1rem 0.4rem 1rem .4rem; }
 
 .imagen-tesla {
   position: relative;
-  bottom: 34rem;
-}
-.imagen-tesla img {
-  height: 50rem;
-  width: 50rem;
-  border-radius: 1rem 0.4rem 1rem 0.4rem;
-}
+  bottom: 34rem; }
+  .imagen-tesla img {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 1rem 0.4rem 1rem .4rem; }
 
 /*FOOTER*/
 .footer {
   background-color: #FFEFE7;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .titulo-footer h3 {
   text-align: center;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 .derechos {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
-}
-.derechos img {
-  height: 3.5rem;
-}
+  margin-bottom: 2rem; }
+  .derechos img {
+    height: 3.5rem; }
 
 /*MEDIAQUERIES*/
 /*INICIO*/
 @media (max-width: 1069px) and (min-width: 817px) {
   .contenido-servicios {
-    height: auto;
-  }
+    height: auto; }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-  }
-}
+    gap: 1rem; } }
+
 @media (max-width: 816px) and (min-width: 768px) {
   #portada h1 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   #portada h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .nosotras h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .nosotras p {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   .nosotras img {
-    height: 23rem;
-  }
+    height: 23rem; }
   .contenido-servicios {
-    height: auto;
-  }
+    height: auto; }
   .servicios h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .servicios p {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-  }
+    gap: 1rem; }
   .titulo-footer h5 {
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem; }
   .derechos {
-    align-items: center;
-  }
-  .derechos p {
-    font-size: 1.2rem;
-  }
-  .derechos img {
-    height: 1rem;
-  }
-}
+    align-items: center; }
+    .derechos p {
+      font-size: 1.2rem; }
+    .derechos img {
+      height: 1rem; } }
+
 @media (max-width: 768px) and (min-width: 320px) {
   #portada h1 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   #portada h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .navbar-brand img {
-    height: 6rem;
-  }
+    height: 6rem; }
   .nosotras {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  .nosotras h2 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-  .nosotras p {
-    font-size: 1.5rem;
-    text-align: justify;
-  }
-  .nosotras img {
-    height: 30rem;
-  }
+    align-items: center; }
+    .nosotras h2 {
+      font-size: 1.8rem;
+      text-align: center; }
+    .nosotras p {
+      font-size: 1.5rem;
+      text-align: justify; }
+    .nosotras img {
+      height: 30rem; }
   .nosotras-texto {
-    margin: 0 2rem;
-  }
+    margin: 0 2rem; }
   .nosotras-img {
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center; }
   .contenido-servicios {
-    height: auto;
-  }
+    height: auto; }
   .servicios h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .servicios p {
     font-size: 1.5rem;
-    text-align: justify;
-  }
+    text-align: justify; }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-  }
+    gap: 1rem; }
   .titulo-footer h5 {
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem; }
   .derechos {
-    align-items: center;
-  }
-  .derechos p {
-    font-size: 1.2rem;
-  }
-  .derechos img {
-    height: 1rem;
-  }
-}
+    align-items: center; }
+    .derechos p {
+      font-size: 1.2rem; }
+    .derechos img {
+      height: 1rem; } }
+
 @media (max-width: 300px) and (min-width: 100px) {
   #portada h1 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   #portada h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .nosotras {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 75rem;
-  }
-  .nosotras h2 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-  .nosotras p {
-    font-size: 1.5rem;
-  }
-  .nosotras img {
-    height: 30rem;
-  }
+    height: 75rem; }
+    .nosotras h2 {
+      font-size: 1.8rem;
+      text-align: center; }
+    .nosotras p {
+      font-size: 1.5rem; }
+    .nosotras img {
+      height: 30rem; }
   .contenido-servicios {
-    height: auto;
-  }
+    height: auto; }
   .servicios h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .servicios p {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-  }
+    gap: 1rem; }
   .titulo-footer h5 {
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem; }
   .derechos {
-    align-items: center;
-  }
-  .derechos p {
-    font-size: 1.2rem;
-  }
-  .derechos img {
-    height: 1rem;
-  }
-}
+    align-items: center; }
+    .derechos p {
+      font-size: 1.2rem; }
+    .derechos img {
+      height: 1rem; } }
+
 /*DEPILACION LASER*/
 @media (max-width: 1023px) and (min-width: 838px) {
   .ice-texto, .titanium-texto {
     flex-direction: column;
-    gap: 2rem;
-  }
-}
+    gap: 2rem; } }
+
 @media (max-width: 838px) and (min-width: 495px) {
   .ice-texto, .titanium-texto {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
   .depilacion-texto h2 {
-    font-size: 2.5rem;
-  }
+    font-size: 2.5rem; }
   .depilacion-texto p {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .img-depi img {
-    height: 30rem;
-  }
+    height: 30rem; }
   .soprano-ice, .soprano-titanium {
-    height: 50rem;
-  }
+    height: 50rem; }
   .ice-texto li, .titanium-texto li {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .ice-img img, .titanium-img img {
     height: 30rem;
-    margin-top: 5rem;
-  }
+    margin-top: 5rem; }
   .soprano-titanium {
-    height: 30rem;
-  }
+    height: 30rem; }
   .titanium-text li {
     font-size: 1.8rem;
-    text-align: justify;
-  }
+    text-align: justify; }
   .titanium-img img {
     height: 30rem;
-    margin-top: -6rem;
-  }
-}
+    margin-top: -6rem; } }
+
 @media (max-width: 607px) and (min-width: 320px) {
   .ice-texto, .titanium-texto {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
   .depilacion-texto h2 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   .depilacion-texto h3 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .depilacion-texto p {
-    font-size: 1.6rem;
-  }
+    font-size: 1.6rem; }
   .img-depi img {
-    height: 30rem;
-  }
+    height: 30rem; }
   .soprano-ice, .soprano-titanium {
-    height: 60rem;
-  }
+    height: 60rem; }
   .ice-texto h2, .titanium-texto h2 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   .ice-texto li, .titanium-texto li {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   .ice-img, .titanium-img {
     display: flex;
-    align-items: center;
-  }
-  .ice-img img, .titanium-img img {
-    height: 30rem;
-  }
+    align-items: center; }
+    .ice-img img, .titanium-img img {
+      height: 30rem; }
   .soprano-titanium {
-    height: 60rem;
-  }
+    height: 60rem; }
   .titanium-texto h2 {
-    font-size: 2rem;
-  }
+    font-size: 2rem; }
   .titanium-texto li {
     font-size: 1.8rem;
-    text-align: justify;
-  }
+    text-align: justify; }
   .titanium-img {
     display: flex;
-    align-items: center;
-  }
-  .titanium-img img {
-    height: 30rem;
-  }
-}
+    align-items: center; }
+    .titanium-img img {
+      height: 30rem; } }
+
 @media (max-width: 838px) and (min-width: 495px) {
   .ice-texto, .titanium-texto {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
   .depilacion-texto h2 {
-    font-size: 2.5rem;
-  }
+    font-size: 2.5rem; }
   .depilacion-texto p {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .img-depi img {
-    height: 30rem;
-  }
+    height: 30rem; }
   .soprano-ice, .soprano-titanium {
-    height: 50rem;
-  }
+    height: 50rem; }
   .ice-texto li, .titanium-texto li {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .ice-img img, .titanium-img img {
     height: 30rem;
-    margin-top: 5rem;
-  }
+    margin-top: 5rem; }
   .soprano-titanium {
-    height: 30rem;
-  }
+    height: 30rem; }
   .titanium-text li {
     font-size: 1.8rem;
-    text-align: justify;
-  }
+    text-align: justify; }
   .titanium-img img {
     height: 30rem;
-    margin-top: -6rem;
-  }
-}
+    margin-top: -6rem; } }
+
 @media (max-width: 495px) and (min-width: 100px) {
   .ice-texto, .titanium-texto {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem; }
   .depilacion-texto h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .depilacion-texto h3 {
-    font-size: 1.6rem;
-  }
+    font-size: 1.6rem; }
   .depilacion-texto p {
-    font-size: 1.4rem;
-  }
+    font-size: 1.4rem; }
   .img-depi img {
-    height: 28rem;
-  }
+    height: 28rem; }
   .soprano-ice, .soprano-titanium {
     height: 65rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-  }
+    gap: 1rem; }
   .ice-texto h2, .titanium-texto h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .ice-texto li, .titanium-texto li {
-    font-size: 1.3rem;
-  }
+    font-size: 1.3rem; }
   .ice-img, .titanium-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: flex-start;
-  }
-  .ice-img img, .titanium-img img {
-    height: 28rem;
-    margin-top: -10rem;
-  }
+    align-content: flex-start; }
+    .ice-img img, .titanium-img img {
+      height: 28rem;
+      margin-top: -10rem; }
   .soprano-titanium {
     height: 47rem;
-    gap: 1rem;
-  }
+    gap: 1rem; }
   .titanium-texto h2 {
-    font-size: 1.8rem;
-  }
+    font-size: 1.8rem; }
   .titanium-texto li {
     font-size: 1.3rem;
-    text-align: justify;
-  }
+    text-align: justify; }
   .titanium-img {
     display: flex;
-    align-items: center;
-  }
-  .titanium-img img {
-    height: 28rem;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
+    align-items: center; }
+    .titanium-img img {
+      height: 28rem; } }
