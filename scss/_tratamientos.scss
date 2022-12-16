@@ -22,33 +22,37 @@
     }
 }
 
-.texto-presoterapia{
-    p{
-        text-align: justify;
-        width: 50rem;
-        margin:2rem 5rem
-    }
+.contenedor-textos-presoterapia{
+    display: flex;
+    flex-direction: column;
+    margin: 35rem 3rem 5rem 3rem;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
 }
-.beneficios{
-    margin: 1rem 10rem;
+.texto-presoterapia{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -10rem;
     h2{
-        font-size: 3rem;
+        text-align: justify;
     }
-    li{
+    ul{
         font-size: 2rem;
-        list-style: inside;
-        list-style-type: georgian;
+    }
+    ul li{
+        font-size: 2rem;
     }
 }
 
 .video-presoterapia{
-    position: relative;
-    left: 70rem;
-    bottom: 45rem;
-        video{
-            height: 50rem;
-            width: 50rem;
-        }
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    video{
+        height: 60rem;
+        width:60rem;
+    }
 }
 
 .fondo-velaslim-tesla{
@@ -64,56 +68,42 @@
     }
 }
 
-.textos-tesla-vesla{
+.textos-vela{
     display: flex;
-    flex-direction: column;
-    margin: 2rem 3rem -22rem 3rem;
-    max-height: 170rem;
-}
-
-.texto-vela{
-    width: 150%;
+    margin: 3rem 2rem 7rem 2rem;
+    gap: 3rem;
 }
 
 .velaslim-texto{
-    display: flex;
-    flex-direction: row;
-    li{
-        font-size: 2rem;
-        list-style: inside;
-        list-style-type: decimal;
-        line-height: 4rem;
+    text-align: justify;
+    h2{
+        text-align: justify;
     }
     ul{
         font-size: 2rem;
-        margin-bottom: 2rem;
     }
-    text-align: justify;
+    ul li{
+        font-size: 2rem;
+    }
 }
 
 .imagen-vela{
-    position: relative;
-    bottom: 22rem;
-    margin-bottom: -10rem;
     img{
-        height: 50rem;
-        width: 50rem;
-        border-radius: 1rem 0.4rem 1rem .4rem;
+        height: 40rem;
+        border-radius: 10%;
+        box-shadow: rgba(0, 0, 0, 0.671) .1rem .2rem;
     }
+}
+
+.contenido-tesla{
+    @extend .textos-vela;
+    flex-direction: row-reverse;
 }
 
 .teslagen-texto{
     @extend .velaslim-texto;
-    
 }
 
 .imagen-tesla{
-    img{
-        height: 50rem;
-        width: 50rem;
-        border-radius: 1rem 0.4rem 1rem .4rem;
-    }
-    position: relative;
-    bottom: 34rem;
-    
+    @extend .imagen-vela;
 }

@@ -444,7 +444,7 @@
     }
 }
 
-/*TRATAMIENTO FACILA*/
+/*TRATAMIENTO FACIAL*/
 
 @media (max-width:836px) and (min-width:100px){
     .contenedor-ozonoterapia{
@@ -517,5 +517,141 @@
     .derechos{
         display: flex;
         align-items: baseline;
+    }
+}
+
+/*TRATAMIENTOS REDUCTORES*/
+
+@media (max-width:1075px) and (min-width:649px){
+    .texto-presoterapia{
+        h2{
+            font-size: 1.4rem;
+        }
+        ul{
+            font-size: 2rem;
+        }
+        ul li{
+            font-size: 2rem;
+        }
+    }
+    .textos-vela{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .velaslim-texto{
+        
+        h2{
+            font-size: 1.4rem;
+        }
+        ul{
+            font-size: 2rem;
+        }
+        ul li{
+            font-size: 2rem;
+            text-align: justify;
+        }
+        
+    }
+    .imagen-vela{
+        img{
+            height: 35rem;
+        }
+    }
+
+    .teslagen-texto{
+        
+        h2{
+            font-size: 1.4rem;
+        }
+        ul{
+            font-size: 2rem;
+        }
+        ul li{
+            font-size: 2rem;
+        }
+    }
+
+    .imagen-tesla{
+        img{
+            height: 35rem;
+        }
+    }
+}
+
+@media (max-width:649px) and (min-width:300px){
+    .fondo-presoterapia{
+        background-size: cover;
+        background-position-x: right;
+        h2{
+            font-size: 3rem;
+        }
+    }
+    .video-presoterapia{
+        margin-top: 10rem;
+        video{
+            height: 20rem;
+        }
+    }
+    .fondo-velaslim-tesla{
+        background-size: cover;
+        background-position-x: left;
+        h2{
+            font-size: 3rem;
+        }
+    }
+    .texto-presoterapia{
+        h2{
+            font-size: 1.2rem;
+        }
+        ul{
+            font-size: 1.8rem;
+        }
+        ul li{
+            font-size: 1.8rem;
+        }
+    }
+    .textos-vela{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .velaslim-texto{
+        
+        h2{
+            font-size: 1.2rem;
+        }
+        ul{
+            font-size: 1.8rem;
+        }
+        ul li{
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+        
+    }
+    .imagen-vela{
+        img{
+            height: 25rem;
+        }
+    }
+
+    .teslagen-texto{
+        
+        h2{
+            font-size: 1.2rem;
+        }
+        ul{
+            font-size: 1.8rem;
+        }
+        ul li{
+            font-size: 1.8rem;
+        }
+    }
+
+    .imagen-tesla{
+        img{
+            height: 25rem;
+        }
     }
 }
