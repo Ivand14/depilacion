@@ -737,6 +737,8 @@ p {
     .fondo-presoterapia h2 {
       font-size: 3rem;
       left: 1rem; }
+  .texto-presoterapia p {
+    text-align: justify; }
   .video-presoterapia {
     margin-top: 10rem; }
     .video-presoterapia video {
@@ -750,9 +752,9 @@ p {
   .texto-presoterapia h2 {
     font-size: 1.2rem; }
   .texto-presoterapia ul {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .texto-presoterapia ul li {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .textos-vela, .contenido-tesla {
     display: flex;
     flex-direction: column;
@@ -760,17 +762,17 @@ p {
   .velaslim-texto h2, .teslagen-texto h2 {
     font-size: 1.2rem; }
   .velaslim-texto ul, .teslagen-texto ul {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .velaslim-texto ul li, .teslagen-texto ul li {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: justify; }
   .imagen-vela img, .imagen-tesla img {
     height: 25rem; }
   .teslagen-texto h2 {
     font-size: 1.2rem; }
   .teslagen-texto ul {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .teslagen-texto ul li {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .imagen-tesla img {
     height: 25rem; } }
