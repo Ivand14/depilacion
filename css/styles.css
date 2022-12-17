@@ -361,6 +361,28 @@ p {
 .contenido-tesla {
   flex-direction: row-reverse; }
 
+/*ALQUILER*/
+.contenedor-alquiler {
+  background: linear-gradient(to bottom, #FFEFE7, pink);
+  height: 62.5rem; }
+  .contenedor-alquiler h2 {
+    text-align: center; }
+  .contenedor-alquiler ul {
+    font-size: 2rem; }
+
+.footer {
+  margin-top: -1rem; }
+
+.texto-alquiler {
+  display: flex;
+  justify-content: center; }
+
+.jornadas, .valor {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-top: 3rem; }
+
 /*FOOTER*/
 .footer {
   background-color: #FFEFE7;

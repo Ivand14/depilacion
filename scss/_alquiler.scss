@@ -1,0 +1,31 @@
+/*ALQUILER*/
+
+.contenedor-alquiler{
+    background: linear-gradient(to bottom,#FFEFE7,pink);
+    h2{
+        text-align: center;
+    }
+    ul{
+        font-size: 2rem;
+    }
+    height: 62.5rem;
+}
+.footer{
+    margin-top: -1rem;
+}
+
+.texto-alquiler{
+    display: flex;
+    justify-content: center;
+}
+
+.jornadas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 3rem
+}
+
+.valor{
+    @extend .jornadas;
+}
