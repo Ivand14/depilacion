@@ -1,31 +1,34 @@
 /*ALQUILER*/
 
 .contenedor-alquiler{
-    background: linear-gradient(to bottom,#FFEFE7,pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../fotos/fondo-alquiler.jpg');
+    background-size: cover;
+    background-repeat: none;
+    gap: 2rem;
     h2{
         text-align: center;
+        color: #000;
+        font-size: 3rem;
     }
     ul{
         font-size: 2rem;
+        color: #000;
     }
     height: 62.5rem;
 }
-.footer{
-    margin-top: -1rem;
-}
 
-.texto-alquiler{
-    display: flex;
-    justify-content: center;
-}
-
-.jornadas{
+.contenido-jornadas{
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
-    margin-top: 3rem
-}
-
-.valor{
-    @extend .jornadas;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: .12rem .1rem .1rem whitesmoke;
+    border-radius: 5rem;
+    width:50rem;
+    height: 35rem;
+    padding: 2rem 5rem;
+    margin: 2rem 42rem;
 }
