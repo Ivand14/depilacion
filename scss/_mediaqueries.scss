@@ -629,7 +629,7 @@
             height: 20rem;
         }
     }
-    .fondo-velaslim-tesla{
+    .fondo-velaslim{
         background-size: cover;
         background-position-x: left;
         h2{
@@ -672,7 +672,14 @@
             height: 25rem;
         }
     }
-
+    .fondo-tesla{
+        background-size: cover;
+        background-position-x: 50%;
+        h2{
+            font-size: 3rem;
+            left: 1rem;
+        }
+    }
     .teslagen-texto{
         
         h2{

@@ -1051,11 +1051,11 @@ p {
   .video-presoterapia video {
     height: 20rem;
   }
-  .fondo-velaslim-tesla {
+  .fondo-velaslim {
     background-size: cover;
     background-position-x: left;
   }
-  .fondo-velaslim-tesla h2 {
+  .fondo-velaslim h2 {
     font-size: 3rem;
     left: 1rem;
   }
@@ -1085,6 +1085,14 @@ p {
   }
   .imagen-vela img, .imagen-tesla img {
     height: 25rem;
+  }
+  .fondo-tesla {
+    background-size: cover;
+    background-position-x: 50%;
+  }
+  .fondo-tesla h2 {
+    font-size: 3rem;
+    left: 1rem;
   }
   .teslagen-texto h2 {
     font-size: 1.2rem;
