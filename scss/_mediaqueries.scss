@@ -537,6 +537,48 @@
         display: flex;
         align-items: baseline;
     }
+    .contenedor-tratamientoFacial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .contenido-tratamientoFacial{
+        display: flex;
+        align-items: flex-start;
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        a{
+            font-size: .7rem;
+            
+        }
+    }
+    .titulo-tratamientoFacial{
+        h2{
+            font-size: 1.2rem;
+        }
+    }
+    .contenido-liftingFooter{
+        display: flex;
+        align-items: flex-start;
+        
+        p{
+            font-size: 1rem;
+        }
+        a{
+            font-size: .7rem;
+            
+        }
+    }
+    .titulo-liftingFooter{
+        h2{
+            font-size: 1.2rem;
+        }
+    }
 }
 
 /*TRATAMIENTOS REDUCTORES*/

@@ -357,6 +357,27 @@ p {
   font-size: 3rem;
 }
 
+.contenedor-tratamientoFacial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem 0 1rem 0;
+}
+
+.contenido-tratamientoFacial {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contenido-liftingFooter {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
 /*PRESOTERAPIA*/
 .contenedor-presoterapia {
   margin-bottom: -30rem;
@@ -1005,6 +1026,41 @@ p {
   .derechos {
     display: flex;
     align-items: baseline;
+  }
+  .contenedor-tratamientoFacial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contenido-tratamientoFacial {
+    display: flex;
+    align-items: flex-start;
+  }
+  .contenido-tratamientoFacial h2 {
+    font-size: 1.2rem;
+  }
+  .contenido-tratamientoFacial p {
+    font-size: 1rem;
+  }
+  .contenido-tratamientoFacial a {
+    font-size: 0.7rem;
+  }
+  .titulo-tratamientoFacial h2 {
+    font-size: 1.2rem;
+  }
+  .contenido-liftingFooter {
+    display: flex;
+    align-items: flex-start;
+  }
+  .contenido-liftingFooter p {
+    font-size: 1rem;
+  }
+  .contenido-liftingFooter a {
+    font-size: 0.7rem;
+  }
+  .titulo-liftingFooter h2 {
+    font-size: 1.2rem;
   }
 }
 /*TRATAMIENTOS REDUCTORES*/

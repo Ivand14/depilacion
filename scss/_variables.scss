@@ -27,3 +27,17 @@
 @mixin li{
     font-size: 2rem;
 }
+
+@mixin contacto-centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@mixin contacto-alineado{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
