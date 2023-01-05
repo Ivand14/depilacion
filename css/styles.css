@@ -284,6 +284,13 @@ p {
   gap: 1.5rem;
 }
 
+.botonDepilacion {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
 /*SPA-FACIAL*/
 .contenedor-ozonoterapia {
   display: flex;
@@ -548,9 +555,9 @@ p {
 
 .derechos {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .derechos img {
   height: 3.5rem;
