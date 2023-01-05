@@ -73,3 +73,22 @@
 .titanium-img{
     @extend .ice-img;
 }
+
+.contenedor-depilacionContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    h3{
+        font-size: calc(1.3rem + .6vw);
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+.contenido-depilacionContacto{
+    display: flex;
+    gap: 1.5rem;
+}

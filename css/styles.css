@@ -265,6 +265,25 @@ p {
   background-color: white;
 }
 
+.contenedor-depilacionContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.contenedor-depilacionContacto h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+.contenedor-depilacionContacto p {
+  font-size: 2rem;
+}
+
+.contenido-depilacionContacto {
+  display: flex;
+  gap: 1.5rem;
+}
+
 /*SPA-FACIAL*/
 .contenedor-ozonoterapia {
   display: flex;
@@ -809,7 +828,7 @@ p {
     height: 30rem;
   }
   .soprano-titanium {
-    height: 60rem;
+    height: auto;
   }
   .titanium-texto h2 {
     font-size: 2rem;
@@ -825,42 +844,23 @@ p {
   .titanium-img img {
     height: 30rem;
   }
-}
-@media (max-width: 838px) and (min-width: 495px) {
-  .ice-texto, .titanium-texto {
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
+  .derechos {
+    align-items: center;
   }
-  .depilacion-texto h2 {
-    font-size: 2.5rem;
+  .derechos p {
+    font-size: 1.2rem;
   }
-  .depilacion-texto p {
-    font-size: 1.8rem;
+  .derechos img {
+    height: 1rem;
   }
-  .img-depi img {
-    height: 30rem;
+  .contenido-depilacionContacto {
+    align-items: center;
   }
-  .soprano-ice, .soprano-titanium {
-    height: 50rem;
+  .contenido-depilacionContacto p {
+    font-size: 1.2rem;
   }
-  .ice-texto li, .titanium-texto li {
-    font-size: 1.8rem;
-  }
-  .ice-img img, .titanium-img img {
-    height: 30rem;
-    margin-top: 5rem;
-  }
-  .soprano-titanium {
-    height: 30rem;
-  }
-  .titanium-text li {
-    font-size: 1.8rem;
-    text-align: justify;
-  }
-  .titanium-img img {
-    height: 30rem;
-    margin-top: -6rem;
+  .contenido-depilacionContacto a {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 495px) and (min-width: 100px) {
@@ -904,7 +904,7 @@ p {
     margin-top: -10rem;
   }
   .soprano-titanium {
-    height: 47rem;
+    height: auto;
     gap: 1rem;
   }
   .titanium-texto h2 {
