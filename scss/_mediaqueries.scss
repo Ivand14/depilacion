@@ -146,15 +146,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 62.5rem;
     gap: 2rem;
     h2{
         text-align: center;
         color: #000;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     ul{
-        font-size: 2.3rem;
+        font-size: 1.7rem;
         color: #000;
     }
 }
@@ -166,7 +166,7 @@
     background-color: rgba(255, 255, 255, 0.76);
     box-shadow: .12rem .1rem .1rem whitesmoke;
     border-radius: 5rem;
-    width: 38rem;
+    width: 30rem;
     height: 45rem;
     padding: 3rem 5rem;
     gap: 2rem;
