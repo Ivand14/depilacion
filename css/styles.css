@@ -457,7 +457,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 62.5rem;
   gap: 2rem;
 }
 .contenedor-alquiler h2 {
