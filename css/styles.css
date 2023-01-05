@@ -449,6 +449,7 @@ p {
   background-size: cover;
   background-repeat: none;
   height: auto;
+  object-fit: cover;
 }
 
 .contenedor-alquiler {
@@ -465,7 +466,7 @@ p {
   font-size: 3rem;
 }
 .contenedor-alquiler ul {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #000;
 }
 
@@ -478,34 +479,9 @@ p {
   box-shadow: 0.12rem 0.1rem 0.1rem whitesmoke;
   border-radius: 5rem;
   width: 50rem;
-  height: 35rem;
+  height: 40rem;
   padding: 2rem 5rem;
-}
-
-.contenedor-pagos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
-  margin-top: 5rem;
-}
-
-.serviciosYpago {
-  background-color: rgba(255, 255, 255, 0.767);
-}
-
-.pagar {
-  display: flex;
-}
-.pagar a {
-  font-size: 1.5rem;
-  color: #000;
-}
-
-.btn-pagos {
-  background-color: bisque !important;
-  border: wheat solid 0.2rem !important;
 }
 
 /*FOOTER*/
@@ -646,6 +622,36 @@ p {
   }
   .derechos img {
     height: 1rem;
+  }
+  .contenedor-alquiler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+  .contenedor-alquiler h2 {
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+  }
+  .contenedor-alquiler ul {
+    font-size: 2.3rem;
+    color: #000;
+  }
+  .contenido-jornadas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: 0.12rem 0.1rem 0.1rem whitesmoke;
+    border-radius: 5rem;
+    width: 38rem;
+    height: 45rem;
+    padding: 3rem 5rem;
+    gap: 2rem;
   }
 }
 @media (max-width: 300px) and (min-width: 100px) {
