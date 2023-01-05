@@ -309,6 +309,13 @@ p {
   margin-left: 10rem;
 }
 
+#boton-ozonoterapia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .contenedor-lifting {
   display: flex;
   flex-direction: row-reverse;
@@ -355,27 +362,6 @@ p {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 3rem;
-}
-
-.contenedor-tratamientoFacial {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin: 5rem 0 1rem 0;
-}
-
-.contenido-tratamientoFacial {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-.contenido-liftingFooter {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
 }
 
 /*PRESOTERAPIA*/
