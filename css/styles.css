@@ -396,7 +396,7 @@ p {
   width: 60rem;
 }
 
-.fondo-velaslim-tesla {
+.fondo-velaslim {
   max-width: 100%;
   height: 40rem;
   background-size: cover;
@@ -406,7 +406,7 @@ p {
   background-image: url("../fotos/vela-tesla.jpg");
   margin-bottom: 2rem;
 }
-.fondo-velaslim-tesla h2 {
+.fondo-velaslim h2 {
   position: relative;
   top: 15rem;
   left: 10rem;
@@ -414,7 +414,7 @@ p {
   color: #ffffff;
 }
 
-.textos-vela, .contenido-tesla {
+.textos-vela, .contenedor-textoTesla {
   display: flex;
   margin: 3rem 2rem 7rem 2rem;
   gap: 3rem;
@@ -440,6 +440,29 @@ p {
 }
 
 .contenido-tesla {
+  display: flex;
+  flex-direction: column;
+}
+
+.fondo-tesla {
+  max-width: 100%;
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+  background-image: url("../fotos/fondo-tesla.jpg");
+  margin-bottom: 2rem;
+}
+.fondo-tesla h2 {
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.contenedor-textoTesla {
   flex-direction: row-reverse;
 }
 
@@ -979,7 +1002,7 @@ p {
   .texto-presoterapia ul li {
     font-size: 2rem;
   }
-  .textos-vela, .contenido-tesla {
+  .textos-vela, .contenedor-textoTesla {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1045,7 +1068,7 @@ p {
   .texto-presoterapia ul li {
     font-size: 2rem;
   }
-  .textos-vela, .contenido-tesla {
+  .textos-vela, .contenedor-textoTesla {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -55,7 +55,7 @@
     }
 }
 
-.fondo-velaslim-tesla{
+.fondo-velaslim{
     @include fondo-tratamientos;
     background-image: url('../fotos/vela-tesla.jpg');
     margin-bottom: 2rem;
@@ -96,10 +96,25 @@
 }
 
 .contenido-tesla{
+    display: flex;
+    flex-direction: column
+}
+.fondo-tesla{
+    @include fondo-tratamientos;
+    background-image: url('../fotos/fondo-tesla.jpg');
+    margin-bottom: 2rem;
+    h2{
+        position: relative;
+        top: 15rem;
+        left: 10rem;
+        font-size: 5rem;
+        color: #ffffff;
+    }
+}
+.contenedor-textoTesla{
     @extend .textos-vela;
     flex-direction: row-reverse;
 }
-
 .teslagen-texto{
     @extend .velaslim-texto;
 }
