@@ -444,15 +444,20 @@ p {
 }
 
 /*ALQUILER*/
+.contenedor-general {
+  background: url("../fotos/fondo-alquiler.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height: auto;
+}
+
 .contenedor-alquiler {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url("../fotos/fondo-alquiler.jpg");
-  background-size: cover;
-  background-repeat: none;
+  align-items: center;
+  height: 100vh;
   gap: 2rem;
-  height: 62.5rem;
 }
 .contenedor-alquiler h2 {
   text-align: center;
@@ -468,13 +473,39 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   background-color: rgba(255, 255, 255, 0.76);
   box-shadow: 0.12rem 0.1rem 0.1rem whitesmoke;
   border-radius: 5rem;
   width: 50rem;
   height: 35rem;
   padding: 2rem 5rem;
-  margin: 2rem 42rem;
+}
+
+.contenedor-pagos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.serviciosYpago {
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+.pagar {
+  display: flex;
+}
+.pagar a {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.btn-pagos {
+  background-color: bisque !important;
+  border: wheat solid 0.2rem !important;
 }
 
 /*FOOTER*/
