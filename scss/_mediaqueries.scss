@@ -444,6 +444,23 @@
             height: 28rem;
         }
     }
+    .contenedor-depilacionContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .contenido-depilacionContacto{
+        display: flex;
+        align-items: flex-start;
+        p{
+            font-size: 1rem;
+        }
+        a{
+            font-size: .7rem;
+            
+        }
+    }
 }
 
 /*TRATAMIENTO FACIAL*/
