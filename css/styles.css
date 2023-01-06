@@ -639,7 +639,7 @@ body p {
 }
 
 .carousel-inner, .slide1 {
-  width: 60rem;
+  width: 50%;
   height: 50rem;
 }
 
