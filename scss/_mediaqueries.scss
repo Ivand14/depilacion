@@ -852,24 +852,30 @@
 .contenedor-jornadasCarrusel{
     width: 14rem;
 }
+.jornadas-carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner{
+    img{
+        height: 20rem;
+    }
+}
 .titulo-tratamientosReductores{
     h2{
         font-size: 2rem;
     }
 }
-.carousel-inner{
-    width: 30rem;
-    height: 20rem;
-}
-.slide1{
-    @extend .carousel-inner;
-}
-.carousel-item{
+.imagen-tratamiento{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
     img{
-        width: 30rem;
         height: 20rem;
+        border-radius: 4rem
     }
 }
 }

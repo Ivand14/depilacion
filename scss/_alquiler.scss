@@ -75,24 +75,14 @@
     }
 }
 
-.carrusel{
+.imagen-tratamiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     img{
-        border-radius: 2rem;
-    }
-}
-
-
-.carousel-inner{
-    width: 50%;
-    height: 50rem;
-}
-.slide1{
-    @extend .carousel-inner;
-}
-.carousel-item{
-    img{
-        width: 60rem;
-        height: 50rem;
+        height: 30rem;
+        border-radius: 4rem
     }
 }
 #boton-alquiler2{

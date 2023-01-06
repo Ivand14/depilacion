@@ -634,18 +634,15 @@ body p {
   text-align: center;
 }
 
-.carrusel img {
-  border-radius: 2rem;
+.imagen-tratamiento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
-.carousel-inner, .slide1 {
-  width: 50%;
-  height: 50rem;
-}
-
-.carousel-item img {
-  width: 60rem;
-  height: 50rem;
+.imagen-tratamiento img {
+  height: 30rem;
+  border-radius: 4rem;
 }
 
 #boton-alquiler2 {
@@ -1396,20 +1393,27 @@ body p {
   .contenedor-jornadasCarrusel {
     width: 14rem;
   }
+  .jornadas-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-inner img {
+    height: 20rem;
+  }
   .titulo-tratamientosReductores h2 {
     font-size: 2rem;
   }
-  .carousel-inner, .slide1 {
-    width: 30rem;
-    height: 20rem;
-  }
-  .carousel-item {
+  .imagen-tratamiento {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
   }
-  .carousel-item img {
-    width: 30rem;
+  .imagen-tratamiento img {
     height: 20rem;
+    border-radius: 4rem;
   }
 }
 
