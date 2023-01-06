@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 62.5rem;
+    height: 80rem;
     gap: 2rem;
     h2{
         text-align: center;
@@ -23,7 +23,11 @@
         color: #000;
     }
 }
-
+.contenedor-jornadas{
+    display: flex;
+    justify-content: space-around;
+    gap: 15rem;
+}
 .contenido-jornadas{
     display: flex;
     flex-direction: column;
@@ -33,9 +37,13 @@
     box-shadow: .12rem .1rem .1rem whitesmoke;
     border-radius: 5rem;
     width:50rem;
-    height: 40rem;
+    height: 60rem;
     padding: 2rem 5rem;
     gap: 2rem;
+}
+
+#boton-alquiler{
+    @include contacto-centrado;
 }
 
 
