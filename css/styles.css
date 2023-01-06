@@ -485,7 +485,7 @@ body p {
   font-size: 2rem;
 }
 
-.imagen-vela img, .imagen-tesla img {
+.imagen-vela img, .imagen-podologia img, .imagen-tesla img {
   height: 40rem;
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.671) 0.1rem 0.2rem;
@@ -516,6 +516,38 @@ body p {
 
 .contenedor-textoTesla {
   flex-direction: row-reverse;
+}
+
+.contenido-podologia {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.fondo-podologia {
+  max-width: 100%;
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+  background-image: url("../fotos/podologia.webp");
+  margin-bottom: 2rem;
+}
+.fondo-podologia h2 {
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.contenedor-textoPodologia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*ALQUILER*/
@@ -1174,7 +1206,7 @@ body p {
     font-size: 2rem;
     text-align: justify;
   }
-  .imagen-vela img, .imagen-tesla img {
+  .imagen-vela img, .imagen-tesla img, .imagen-podologia img {
     height: 35rem;
   }
   .teslagen-texto h2 {
@@ -1238,7 +1270,7 @@ body p {
     font-size: 2rem;
     text-align: justify;
   }
-  .imagen-vela img, .imagen-tesla img {
+  .imagen-vela img, .imagen-tesla img, .imagen-podologia img {
     height: 25rem;
   }
   .fondo-tesla {
@@ -1259,6 +1291,29 @@ body p {
   }
   .imagen-tesla img {
     height: 25rem;
+  }
+  .contenido-podologia {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .fondo-podologia h2 {
+    font-size: 2.5rem;
+  }
+  .podologia-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .podologia-texto ul {
+    font-size: 2rem;
+  }
+  .podologia-texto ul li {
+    font-size: 2rem;
+  }
+  .imagen-podologia img {
+    height: 20rem;
   }
 }
 /*ALQUILER*/

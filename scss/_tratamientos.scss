@@ -122,3 +122,32 @@
 .imagen-tesla{
     @extend .imagen-vela;
 }
+.contenido-podologia{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.fondo-podologia{
+    @include fondo-tratamientos;
+    background-image: url('../fotos/podologia.webp');
+    margin-bottom: 2rem;
+    h2{
+        position: relative;
+        top: 15rem;
+        left: 10rem;
+        font-size: 5rem;
+        color: #ffffff;
+    }
+}
+
+.contenedor-textoPodologia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imagen-podologia{
+    @extend .imagen-vela;
+}
