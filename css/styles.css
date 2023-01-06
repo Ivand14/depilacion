@@ -702,6 +702,13 @@ body p {
   #portada h2 {
     font-size: 1.8rem;
   }
+  #portada h3 {
+    font-size: 1.8rem;
+  }
+  .navbar {
+    z-index: 1;
+    background-color: #ffefe7;
+  }
   .navbar-brand img {
     height: 6rem;
   }
